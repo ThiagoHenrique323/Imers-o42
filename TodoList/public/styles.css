@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body{
+  background-color:lightblue ;
+}
+header{
+  background-color: white;
+  width: 100%;
+  padding: 32px;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+}
+section{
+  display: block;
+}
+
+.details {
+  padding: 32px;
+  
+}
+.details .item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 0;
+}
+
+button[type="submit"],a.button{
+    padding: 8px 32px;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 4px;
+    margin-top: 32px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.card{
+  background-color: white;
+  width: 800px;
+  min-height: 400px;
+  margin: 45px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+input{
+  width: 100%;
+  outline: none;
+  color: #555;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#cads{
+  padding: 16px 0;
+font-size: 20px;
+}
