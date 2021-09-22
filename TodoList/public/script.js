@@ -5,12 +5,12 @@ const dat = document.getElementById("dat")
 
 const todos = JSON.parse(localStorage.getItem('lista')) || []
 
-//Deve ser iniciado com Live Server
+
 function mostrarLista(){
   lista.innerHTML = ''
- 
+
   for(item of todos){
- 
+  
     const pos = todos.indexOf(item)
 
     const itemList =  document.createElement('li')
@@ -45,7 +45,7 @@ function mostrarLista(){
    todoss={todo:todo,da:da,st:st,date:date}
 
   todos.push(JSON.stringify(todoss))
-   input.value = ''
+   input.value = ' '
   mostrarLista()
   salvar()
   console.log(JSON.stringify(todos))
