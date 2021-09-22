@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="public/guardar.js"></script>
+
   <link rel="stylesheet" href="public/styles.css">
   <title>Criar</title>
 </head>
@@ -26,14 +26,15 @@
       </div>
         <div class="item" >Data limite</div>
         <div>
-        <input type="datetime-local" required   id="dd" >
+        <input type="datetime-local" id="dat">
       </div>
       </div>
-      <button type="submit" class="button" onclick="salvar()">Salvar</button>
+      <button onclick="addTodo()">Salvar</button>
     </div> 
+    
   </div> 
     </section>  
-   
+    <script src="public/script.js"></script>
 </body>
 
 </html>
